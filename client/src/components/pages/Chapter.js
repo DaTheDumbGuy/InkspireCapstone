@@ -10,7 +10,7 @@ function Chapter() {
         <div className='background-dark'>
             <Header />
             <main className="background-dark text-light my-5" id="novel-chapter-container" >
-                <header className='d-lg-block fw-light d-none my-4 py-4 fs-5'>Home&nbsp; / &nbsp;Novel Title&nbsp; /&nbsp; Chapter</header>
+                <header className='d-lg-block fw-light d-none my-4 py-4 fs-5'>Home&nbsp; / &nbsp;The Horizon&nbsp; /&nbsp; Chapter</header>
                 <div className='novel-chapter-content p-2'>
                     <h5>Chapter 730: Requiem</h5>
                     <aside className='background-dark-light text-light text-center' style={{ height: "20vh" }}>Advertisement</aside>

@@ -20,8 +20,9 @@ function Content() {
                             style={{ objectFit: "cover" }}
                         />
                         <Carousel.Caption>
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>Second Life Ranker</h5>
+                            <p>A fantastic story with a great balance of action, drama, and mystery. It's a must-read for fans of fantasy and adventure, and the manga adaptation
+                                is a great way to experience the story for those who prefer visuals.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -32,8 +33,9 @@ function Content() {
                             style={{ objectFit: "cover" }}
                         />
                         <Carousel.Caption>
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5>Catharsis</h5>
+                            <p>Fear is a powerful emotion that can end up overtaking one's life. Leon thought he knew that. But when he's thrown into the demonic realm that Catharsis governs over,
+                                he'll learn that there is more to “true” fear than he could ever have imagined... But will he learn how to face it?</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -44,8 +46,9 @@ function Content() {
                             style={{ objectFit: "cover" }}
                         />
                         <Carousel.Caption>
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5>Omniscient Reader</h5>
+                            <p>Dokja was an average office worker whose sole interest was reading his favorite web novel 'Three Ways to Survive the Apocalypse.'
+                                But when the novel suddenly becomes reality, he is the only person who knows how the world will end.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -65,39 +68,39 @@ function Content() {
                 <div className='row row-cols-8 justify-content-around mb-5' id='weekly-novels-books'>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/R.2f2f268076f878d431aa6519477a6425?rik=3ZaI8j75Yz8fvA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2f6%2ff%2f1290302-free-cool-anime-iphone-wallpaper-1080x1920-meizu.jpg&ehk=G6Pwuf%2fhNrQgE%2bke8KT1msveqP9Wh73fVfj58Lwv5A4%3d&risl=&pid=ImgRaw&r=0' alt='asd ' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Noblesse</p>
                     </div>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.-H94-JbqG2qv_gj1UGedNAHaNL?pid=ImgDet&w=750&h=1334&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>The Beginning After The End</p>
                     </div>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.7wsmTl5HjMFB4RDMpDgLIwHaNK?pid=ImgDet&w=2160&h=3840&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>The God of High School</p>
                     </div>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.rtOTH6O2DESYIOAcOkZJwAHaKd?pid=ImgDet&w=1417&h=2000&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is  title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Tower Of God</p>
                     </div>
                     {/*  */}
 
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP.RDTIqadi_8FEFRwI9IOPpwHaIc?pid=ImgDet&w=526&h=600&rs=1' alt='asd ' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Solo Leveling</p>
                     </div>
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP.7li-7qs540KcPKNs2jnypgHaKe?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Black Haze</p>
                     </div>
                     {/* This is the only one that works */}
                     <div className='col d-lg-block d-none' onClick={novelRedirect}>
                         <img src='https://th.bing.com/th/id/OIP.OVdwF4q_zTyBbBE-a3bIfAHaOG?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light '>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light '>True Beauty</p>
                     </div>
 
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP.ZZr_3AEuZQ6rdGLtzn7bdgHaJt?pid=ImgDet&w=1067&h=1400&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>unOrdinary</p>
                     </div>
 
                 </div>
@@ -108,19 +111,19 @@ function Content() {
                 <div className='row row-cols-8 justify-content-around' id='weekly-novels-books'>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.mfgrK3HfW7zGYSuJxUWjngHaJZ?pid=ImgDet&rs=1' alt='asd ' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Sweet Home</p>
                     </div>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.2E_SeDGA-HWDHGg0LiKDawHaNK?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>The Legendary Moonlight Sculptor</p>
                     </div>
                     <div className='col'>
                         <img src='https://i.pinimg.com/originals/e3/47/af/e347af16ca440ae169d335fd4331dc80.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Cheese In The Trap</p>
                     </div>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.RKFVgmr62BwWd9kbFqQvNgHaLO?pid=ImgDet&w=564&h=855&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Build Up</p>
                     </div>
 
                     {/*  */}
@@ -129,19 +132,19 @@ function Content() {
 
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP.pZVIcDFgSdrI4lVGrOxpkAHaKk?pid=ImgDet&rs=1' alt='asd ' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Subzero</p>
                     </div>
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP.ztyLN85xgy3a4TsrzKdV0AHaL_?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Kubera</p>
                     </div>
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP.ZqYT-ufpZq50BZng7RE4kgAAAA?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>The Horizon</p>
                     </div>
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP._3wwSdqO91g2eMMA1I-D2wHaL2?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is  title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Wind Breaker</p>
                     </div>
                 </div>
             </section>
@@ -168,8 +171,8 @@ function Content() {
                                         style={{ objectFit: "cover" }}
                                     />
                                     <div className="ml-3">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h5>Second Life Ranker</h5>
+                                        <p>New Update!</p>
                                     </div>
                                 </div>
                                 <div className="d-lg-flex d-none align-items-center gap-2 carousel-hot-items"
@@ -181,8 +184,8 @@ function Content() {
                                         style={{ objectFit: "cover" }}
                                     />
                                     <div className="ml-3">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h5>Catharsis</h5>
+                                        <p>Top 2 in Hottest!</p>
                                     </div>
                                 </div>
                                 <div className="d-md-flex d-none align-items-center gap-2 carousel-hot-items"
@@ -194,8 +197,8 @@ function Content() {
                                         style={{ objectFit: "cover" }}
                                     />
                                     <div className="ml-3">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h5>Omniscient Reader</h5>
+                                        <p>Latest Update!</p>
                                     </div>
                                 </div>
                             </div>
@@ -211,8 +214,8 @@ function Content() {
                                         style={{ objectFit: "cover" }}
                                     />
                                     <div className="ml-3">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h5>Bastard</h5>
+                                        <p>New Release!</p>
                                     </div>
                                 </div>
                                 <div className="d-lg-flex d-none align-items-center gap-2 carousel-hot-items"
@@ -225,8 +228,8 @@ function Content() {
                                         style={{ objectFit: "cover" }}
                                     />
                                     <div className="ml-3">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h5>Who Made Me a Princess</h5>
+                                        <p>Top 3!</p>
                                     </div>
                                 </div>
                                 <div className="d-md-flex d-none align-items-center gap-2 carousel-hot-items"
@@ -238,8 +241,8 @@ function Content() {
                                         style={{ objectFit: "cover" }}
                                     />
                                     <div className="ml-3">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h5>The Legend of the Northern Blade</h5>
+                                        <p>Best in Slice of Life!</p>
                                     </div>
                                 </div>
                             </div>
@@ -255,8 +258,8 @@ function Content() {
                                         style={{ objectFit: "cover" }}
                                     />
                                     <div className="ml-3">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h5>The Boxer</h5>
+                                        <p>Hot!</p>
                                     </div>
                                 </div>
                                 <div className="d-lg-flex d-none align-items-center gap-2 carousel-hot-items"
@@ -269,8 +272,8 @@ function Content() {
                                         style={{ objectFit: "cover" }}
                                     />
                                     <div className="ml-3">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h5>Eleceed</h5>
+                                        <p>Weekly updates</p>
                                     </div>
                                 </div>
                                 <div className="d-md-flex d-none align-items-center gap-2 carousel-hot-items"
@@ -283,8 +286,8 @@ function Content() {
                                         style={{ objectFit: "cover" }}
                                     />
                                     <div className="ml-3">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+                                        <h5>The Breaker: New Waves</h5>
+                                        <p>New Update!</p>
                                     </div>
                                 </div>
                             </div>
@@ -297,36 +300,36 @@ function Content() {
                 <div className='row row-cols-8 justify-content-around my-5' id='weekly-novels-books'>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.pZVIcDFgSdrI4lVGrOxpkAHaKk?pid=ImgDet&rs=1' alt='asd ' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Annarasumanara</p>
                     </div>
                     <div className='col '>
                         <img src='https://th.bing.com/th/id/OIP.ztyLN85xgy3a4TsrzKdV0AHaL_?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>After School Lessons for Unripe Apples</p>
                     </div>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.ZqYT-ufpZq50BZng7RE4kgAAAA?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Sweet Home</p>
                     </div>
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP._3wwSdqO91g2eMMA1I-D2wHaL2?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is  title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Return of the Blossoming Blade</p>
                     </div>
 
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/R.2f2f268076f878d431aa6519477a6425?rik=3ZaI8j75Yz8fvA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2f6%2ff%2f1290302-free-cool-anime-iphone-wallpaper-1080x1920-meizu.jpg&ehk=G6Pwuf%2fhNrQgE%2bke8KT1msveqP9Wh73fVfj58Lwv5A4%3d&risl=&pid=ImgRaw&r=0' alt='asd ' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>The Greatest Estate Developer</p>
                     </div>
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP.-H94-JbqG2qv_gj1UGedNAHaNL?pid=ImgDet&w=750&h=1334&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Villains Are Destined to Die</p>
                     </div>
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP.7wsmTl5HjMFB4RDMpDgLIwHaNK?pid=ImgDet&w=2160&h=3840&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Seasons of Blossom</p>
                     </div>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.rtOTH6O2DESYIOAcOkZJwAHaKd?pid=ImgDet&w=1417&h=2000&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is  title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Spirit Fingers</p>
                     </div>
                 </div>
 
@@ -337,38 +340,38 @@ function Content() {
                 <div className='row row-cols-8  justify-content-around' id='weekly-novels-books'>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.RDTIqadi_8FEFRwI9IOPpwHaIc?pid=ImgDet&w=526&h=600&rs=1' alt='asd ' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Your Throne</p>
                     </div>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.7li-7qs540KcPKNs2jnypgHaKe?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Daytime Star</p>
                     </div>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.OVdwF4q_zTyBbBE-a3bIfAHaOG?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>King's Maker</p>
                     </div>
                     <div className='col'>
                         <img src='https://th.bing.com/th/id/OIP.ZZr_3AEuZQ6rdGLtzn7bdgHaJt?pid=ImgDet&w=1067&h=1400&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Something About Us</p>
                     </div>
 
                     {/* Pagitan */}
 
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP.mfgrK3HfW7zGYSuJxUWjngHaJZ?pid=ImgDet&rs=1' alt='asd ' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Can't See Can't Hear But Love</p>
                     </div>
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP.2E_SeDGA-HWDHGg0LiKDawHaNK?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Vagrant Soldier Ares</p>
                     </div>
                     <div className='col d-lg-block d-none'>
                         <img src='https://i.pinimg.com/originals/e3/47/af/e347af16ca440ae169d335fd4331dc80.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>Her Tale of Shim Chong</p>
                     </div>
                     <div className='col d-lg-block d-none'>
                         <img src='https://th.bing.com/th/id/OIP.RKFVgmr62BwWd9kbFqQvNgHaLO?pid=ImgDet&w=564&h=855&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                        <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                        <p style={{ wordWrap: "break-word" }} className='fw-light'>I Shall Master This Family</p>
                     </div>
 
                 </div>

@@ -128,19 +128,17 @@ function NovelDescription() {
                     <div className="novel-synopsis px-md-5">
                         <h5 className='mb-2'>Synopsis</h5>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed euismod quis est sed finibus. Fusce venenatis nunc vel mi
-                            tristique, sed maximus velit efficitur.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed euismod quis est sed finibus. Fusce venenatis nunc vel mi
-                            tristique, sed maximus velit efficitur.
+                        The Lombardis were the most powerful family that ever existed in the empire. 
+                        With unimaginable wealth, they shaped history, culture, and the arts—their influence rivaling that of the emperor.
+                         However, the family collapsed after making an alliance with the first prince, which resulted in futility as the second-born 
+                         Perez Brivachali Durelli was crowned instead.  
                         </p>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed euismod quis est sed finibus. Fusce venenatis nunc vel mi
-                            tristique, sed maximus velit efficitur.
-
+                        A Korean woman is reincarnated as Firentia, the daughter of a Lombardi and a commoner. 
+                        Despite her status as an illegitimate child, her father and grandfather love her, and she works hard to keep her family's prestige intact.
+                         After the two pass away, Firentia is kicked out and has since regretted how her relatives have torn the Lombardi name to shreds.
+                            
                         </p>
                     </div>
 
@@ -159,13 +157,13 @@ function NovelDescription() {
                                     <div className="d-flex align-items-center gap-2 carousel-hot-items">
                                         <img
                                             className="d-block h-100 w-25 rounded-2 ps-2 py-0 pe-0"
-                                            src="https://th.bing.com/th/id/OIP.WbTiXojxhR8vAbqYwDXadQHaJ3?pid=ImgDet&rs=1"
+                                            src="https://cdn.myanimelist.net/images/manga/2/222246l.jpg"
                                             alt="First slide"
                                             style={{ objectFit: "cover" }}
                                         />
                                         <div className="ml-3">
-                                            <h5>First slide label</h5>
-                                            <p>Some representative placeholder content for the first slide.</p>
+                                            <h5>Your Letter</h5>
+                                            <p>Ranked #599</p>
                                         </div>
                                     </div>
                                 </div>
@@ -175,13 +173,13 @@ function NovelDescription() {
                                     <div className="d-flex align-items-center gap-2 carousel-hot-items">
                                         <img
                                             className="d-block h-100 w-25 rounded-2 ps-2 py-0 pe-0"
-                                            src="https://th.bing.com/th/id/OIP.WbTiXojxhR8vAbqYwDXadQHaJ3?pid=ImgDet&rs=1"
+                                            src="https://cdn.myanimelist.net/images/manga/2/260198l.jpg"
                                             alt="First slide"
                                             style={{ objectFit: "cover" }}
                                         />
                                         <div className="ml-3">
-                                            <h5>First slide label</h5>
-                                            <p>Some representative placeholder content for the first slide.</p>
+                                            <h5>See You in My 19th Life</h5>
+                                            <p>Ranked #604</p>
                                         </div>
                                     </div>
                                 </div>
@@ -191,13 +189,13 @@ function NovelDescription() {
                                     <div className="d-flex align-items-center gap-2 carousel-hot-items">
                                         <img
                                             className="d-block h-100 w-25 rounded-2 ps-2 py-0 pe-0"
-                                            src="https://th.bing.com/th/id/OIP.WbTiXojxhR8vAbqYwDXadQHaJ3?pid=ImgDet&rs=1"
+                                            src="https://cdn.myanimelist.net/images/manga/3/208547l.jpg"
                                             alt="First slide"
                                             style={{ objectFit: "cover" }}
                                         />
                                         <div className="ml-3">
-                                            <h5>First slide label</h5>
-                                            <p>Some representative placeholder content for the first slide.</p>
+                                            <h5>Winter Woods</h5>
+                                            <p>Ranked #621</p>
                                         </div>
                                     </div>
                                 </div>
@@ -270,37 +268,37 @@ function NovelDescription() {
                     <h5>Similar Recommended</h5>
                     <div className='row row-cols-8 justify-content-around my-5' id='weekly-novels-books'>
                         <div className='col'>
-                            <img src='https://th.bing.com/th/id/OIP.pZVIcDFgSdrI4lVGrOxpkAHaKk?pid=ImgDet&rs=1' alt='asd ' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                            <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                            <img src='https://cdn.myanimelist.net/images/manga/1/235295l.jpg' alt='asd ' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
+                            <p style={{ wordWrap: "break-word" }} className='fw-light'>The Remarried Empress</p>
                         </div>
                         <div className='col '>
-                            <img src='https://th.bing.com/th/id/OIP.ztyLN85xgy3a4TsrzKdV0AHaL_?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                            <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                            <img src='https://cdn.myanimelist.net/images/manga/3/239496l.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
+                            <p style={{ wordWrap: "break-word" }} className='fw-light'>Heesu in Class 2</p>
                         </div>
                         <div className='col'>
-                            <img src='https://th.bing.com/th/id/OIP.ZqYT-ufpZq50BZng7RE4kgAAAA?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                            <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                            <img src='https://cdn.myanimelist.net/images/manga/1/262455l.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
+                            <p style={{ wordWrap: "break-word" }} className='fw-light'>Nano Machine</p>
                         </div>
                         <div className='col d-lg-block d-none'>
-                            <img src='https://th.bing.com/th/id/OIP._3wwSdqO91g2eMMA1I-D2wHaL2?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                            <p style={{ wordWrap: "break-word" }} className='fw-light'>This is  title</p>
+                            <img src='https://cdn.myanimelist.net/images/manga/2/89293l.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
+                            <p style={{ wordWrap: "break-word" }} className='fw-light'>About Death</p>
                         </div>
 
                         <div className='col d-lg-block d-none'>
                             <img src='https://th.bing.com/th/id/R.2f2f268076f878d431aa6519477a6425?rik=3ZaI8j75Yz8fvA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2f6%2ff%2f1290302-free-cool-anime-iphone-wallpaper-1080x1920-meizu.jpg&ehk=G6Pwuf%2fhNrQgE%2bke8KT1msveqP9Wh73fVfj58Lwv5A4%3d&risl=&pid=ImgRaw&r=0' alt='asd ' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                            <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                            <p style={{ wordWrap: "break-word" }} className='fw-light'>Viral Hit</p>
                         </div>
                         <div className='col d-lg-block d-none'>
-                            <img src='https://th.bing.com/th/id/OIP.-H94-JbqG2qv_gj1UGedNAHaNL?pid=ImgDet&w=750&h=1334&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                            <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                            <img src='https://cdn.myanimelist.net/images/manga/1/260761l.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
+                            <p style={{ wordWrap: "break-word" }} className='fw-light'>SSS-Class Revival Hunter</p>
                         </div>
                         <div className='col d-lg-block d-none'>
-                            <img src='https://th.bing.com/th/id/OIP.7wsmTl5HjMFB4RDMpDgLIwHaNK?pid=ImgDet&w=2160&h=3840&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                            <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
+                            <img src='https://cdn.myanimelist.net/images/manga/2/208866l.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
+                            <p style={{ wordWrap: "break-word" }} className='fw-light'>Lookism</p>
                         </div>
                         <div className='col'>
-                            <img src='https://th.bing.com/th/id/OIP.rtOTH6O2DESYIOAcOkZJwAHaKd?pid=ImgDet&w=1417&h=2000&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
-                            <p style={{ wordWrap: "break-word" }} className='fw-light'>This is  title</p>
+                            <img src='https://cdn.myanimelist.net/images/manga/3/232795l.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
+                            <p style={{ wordWrap: "break-word" }} className='fw-light'>Weak Hero</p>
                         </div>
                     </div>
                 </section>
