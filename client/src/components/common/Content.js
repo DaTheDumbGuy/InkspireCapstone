@@ -115,7 +115,7 @@ function Content() {
                         <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
                     </div>
                     <div className='col'>
-                        <img src='https://i.pinimg.com/originals/e3/47/af/e347af16ca440ae169d335fd4331dc80.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
+                        <img src='https://i.pinimg.com/originals/00/a6/05/00a605c5220285e6582c591003b007c4.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
                         <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
                     </div>
                     <div className='col'>
@@ -158,7 +158,7 @@ function Content() {
                 <div id="carousel-hot-container">
                     <Carousel interval={null} >
                         <Carousel.Item>
-                            <div class="d-flex gap-2">
+                            <div className="d-flex gap-2">
                                 <div className="d-flex align-items-center gap-2 carousel-hot-items"
                                     style={{ background: "linear-gradient( 115deg, rgba(2, 2, 2, 0.8), rgba(111, 111, 117, 0.7) ), url(https://th.bing.com/th/id/OIP.WbTiXojxhR8vAbqYwDXadQHaJ3?pid=ImgDet&rs=1)" }}>
                                     <img
@@ -201,7 +201,7 @@ function Content() {
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <div class="d-flex gap-2">
+                            <div className="d-flex gap-2">
                                 <div className="d-flex align-items-center gap-2 carousel-hot-items"
                                     style={{ background: "linear-gradient( 115deg, rgba(2, 2, 2, 0.8), rgba(111, 111, 117, 0.7) ), url(https://i.pinimg.com/originals/8b/fa/44/8bfa44aed55f551de4cb821ce12e739b.jpg)" }}>
                                     <img
@@ -245,7 +245,7 @@ function Content() {
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <div class="d-flex gap-2">
+                            <div className="d-flex gap-2">
                                 <div className="d-flex align-items-center gap-2 carousel-hot-items"
                                     style={{ background: "linear-gradient( 115deg, rgba(2, 2, 2, 0.8), rgba(111, 111, 117, 0.7) ), url(https://th.bing.com/th/id/OIP.Ekc3UHwsTRTrVaYwGaeV2wHaKe?pid=ImgDet&rs=1)" }}>
                                     <img
@@ -344,7 +344,7 @@ function Content() {
                         <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
                     </div>
                     <div className='col'>
-                        <img src='https://th.bing.com/th/id/OIP.OVdwF4q_zTyBbBE-a3bIfAHaOG?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
+                        <img src='https://th.bing.com/th/id/OIP.OVdwF4q_zTyBbBE-a3bIfAHaOG?pid=ImgDet&rs=1' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} onClick={novelRedirect} />
                         <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
                     </div>
                     <div className='col'>
@@ -363,7 +363,7 @@ function Content() {
                         <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
                     </div>
                     <div className='col d-lg-block d-none'>
-                        <img src='https://i.pinimg.com/originals/e3/47/af/e347af16ca440ae169d335fd4331dc80.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
+                        <img src='https://i.pinimg.com/originals/00/a6/05/00a605c5220285e6582c591003b007c4.jpg' alt='asd' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
                         <p style={{ wordWrap: "break-word" }} className='fw-light'>This is title</p>
                     </div>
                     <div className='col d-lg-block d-none'>

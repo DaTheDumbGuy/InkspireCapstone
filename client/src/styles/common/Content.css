@@ -8,13 +8,6 @@
 .carouselNav a {
     padding: 10px;
 }
-#weekly-novels-container div .col img{
-    transition: all 0.1s ease-in-out; 
-    cursor:pointer;
-}
-#weekly-novels-container div .col img:hover{
-    border: 3px solid aquamarine;
-}
 #carousel-entry-container{
     height: 40vh;
     overflow: hidden;
@@ -39,7 +32,7 @@
 /* #carousel-hot-container{
     border: 1px solid red;
 } */
-.carousel-hot-items{
+#carousel-hot-container .carousel-hot-items{
     border-radius: 10px;
     height: 180px;
     padding: 10px;
@@ -50,11 +43,10 @@
 }
 
   
-.carousel-hot-items img{
+#carousel-hot-container .carousel-hot-items img{
     height: 180px;
     padding: 10px;
     opacity: 0.9;
-    
 }
 
 /* .carousel-hot-items::before{

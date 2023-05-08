@@ -67,7 +67,7 @@
 }
 
 
-#novel-re-categories #carousel-hot-container .carousel-hot-items::before{
+#novel-re-categories #carousel-container .first-novel::before{
     content: "";
     position: absolute;
     top:0;
@@ -82,6 +82,53 @@
 
 }
 
+#novel-re-categories #carousel-container .second-novel::before{
+    content: "";
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient( 115deg, rgba(2, 2, 2, 0.8), rgba(111, 111, 117, 0.7) ), url(https://th.bing.com/th/id/OIP.rtOTH6O2DESYIOAcOkZJwAHaKd?pid=ImgDet&w=1417&h=2000&rs=1);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 10px;
+
+}
+
+
+#novel-re-categories #carousel-container .third-novel::before{
+    content: "";
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient( 115deg, rgba(2, 2, 2, 0.8), rgba(111, 111, 117, 0.7) ), url(https://th.bing.com/th/id/OIP.1g0oquRxTY59SCYldpa8swHaKd?pid=ImgDet&rs=1);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 10px;
+
+}
+#novel-re-categories .carousel-hot-items{
+    border-radius: 10px;
+    height: 200px;
+    padding: 10px;
+    opacity: 0.9;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+  
+#novel-re-categories .carousel-hot-items img{
+    height: 180px;
+    padding: 10px;
+    opacity: 0.9;
+}
+
 #novel-tags ul li small a{
     background-color: rgb(141, 200, 180);
     border-radius: 10px;
@@ -89,7 +136,7 @@
 }
 
 @media screen and (max-width: 600px){
-    #novel-re-categories #carousel-hot-container{
+    #novel-re-categories #carousel-container{
         zoom:0.8;
     }
     #novel-similar-recommended div{
@@ -134,5 +181,11 @@
         border-radius: 10px;
         background-color: var(--background-dark-secondary);
      }
+
+     #novel-re-categories .carousel-hot-items{
+        height: 350px;
+    }
+
+    
 
 }

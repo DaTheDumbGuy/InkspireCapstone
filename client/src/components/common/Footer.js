@@ -23,11 +23,11 @@ function Footer() {
                 </div>
                 <div className='col-12 col-lg-4 d-flex flex-column'>
                     <div className='row row-cols-lg-1 row-cols-2'>
-                        <div class="col  d-flex flex-column align-items-start">
+                        <div className="col  d-flex flex-column align-items-start">
                             <a href='#' className='mb-2 nav-link text-light'><span><ArrowRightIcon style={{ color: 'lightgreen' }} /></span>POPULAR KOREAN NOVELS</a>
                             <a href='#' className='mb-2 nav-link text-light'><span><ArrowRightIcon style={{ color: 'lightgreen' }} /></span>HOT ARTICLE</a>
                         </div>
-                        <div class="col  d-flex flex-column align-items-start">
+                        <div className="col  d-flex flex-column align-items-start">
                             <a href='#' className='mb-2 nav-link text-light'><span><ArrowRightIcon style={{ color: 'lightgreen' }} /></span>ADVENTURE</a>
                             <a href='#' className='mb-2 nav-link text-light'><span><ArrowRightIcon style={{ color: 'lightgreen' }} /></span>SLICE OF LIFE</a>
                         </div>

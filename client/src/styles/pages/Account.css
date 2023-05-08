@@ -1,0 +1,67 @@
+#profile-container{
+    width: 100%;
+    margin: auto;
+}
+#profile-container .profile-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 10px;
+    /* flex-direction: column; */
+}
+
+#profile-container .profile-data .item-one{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    zoom: 0.7;
+}
+#profile-container .profile-data .item-two{
+    width: 60%;
+    color: white;
+}
+#profile-container .profile-data .item-one .profile-image{
+    overflow: hidden;
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    align-self: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+#profile-container .profile-others .profile-others-action > button{
+    zoom:0.7
+}
+
+#advertisement{
+    height: 30vh;
+}
+
+@media screen and (min-width: 600px) {
+    #profile-container .profile-data .item-one .profile-image{
+        width: 50%;
+
+    }
+    #advertisement{
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #profile-container .profile-data .item-one .profile-image{
+
+        width: 100%;
+
+
+    }
+    #profile-container .profile-data .item-one{
+        zoom: 0.8;
+    }
+    
+  
+}

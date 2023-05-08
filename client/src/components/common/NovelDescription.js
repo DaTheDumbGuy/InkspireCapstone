@@ -23,7 +23,7 @@ function NovelDescription() {
                     <div className='novel-image-container mb-3'>
                         <img src='https://th.bing.com/th/id/OIP.OVdwF4q_zTyBbBE-a3bIfAHaOG?pid=ImgDet&rs=1' alt='' className='w-100 h-100 ' style={{ objectFit: "cover" }} />
                     </div>
-                    <div class="novel-auth-title ps-2 " >
+                    <div className="novel-auth-title ps-2 " >
                         <h3 className='text-light'>Title</h3>
                         <p style={{ color: "aquamarine", fontWidth: "bold" }}>
                             <small>
@@ -128,12 +128,12 @@ function NovelDescription() {
                     <div className="novel-synopsis px-md-5">
                         <h5 className='mb-2'>Synopsis</h5>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed euismod quis est sed finibus. Fusce venenatis nunc vel mi
-                            tristique, sed maximus velit efficitur.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed euismod quis est sed finibus. Fusce venenatis nunc vel mi
-                            tristique, sed maximus velit efficitur.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad beatae
+                            architecto eligendi cum quam distinctio officia sed deleniti, quae ea minima
+                            fuga eos nostrum quo hic temporibus? Delectus adipisci, maiores voluptas facilis
+                            inventore perferendis accusantium ad odit exercitationem nobis quia. Tenetur
+                            voluptatum reiciendis aspernatur, quas dolorem expedita odio delectus, earum
+                            aliquid esse sunt provident eos, necessitatibus adipisci voluptas beatae?
                         </p>
 
                         <p>
@@ -151,12 +151,12 @@ function NovelDescription() {
                     </div>
 
                     {/* Author's Novels  */}
-                    <div id="carousel-hot-container" className='px-md-5'>
+                    <div id="carousel-container" className='px-md-5'>
                         <h5 className='my-4 fs-3'>Author's Novels</h5>
                         <Carousel interval={null} >
                             <Carousel.Item>
-                                <div class="d-block">
-                                    <div className="d-flex align-items-center gap-2 carousel-hot-items">
+                                <div className="d-block">
+                                    <div className="d-flex align-items-center gap-2 carousel-hot-items first-novel">
                                         <img
                                             className="d-block h-100 w-25 rounded-2 ps-2 py-0 pe-0"
                                             src="https://th.bing.com/th/id/OIP.WbTiXojxhR8vAbqYwDXadQHaJ3?pid=ImgDet&rs=1"
@@ -171,13 +171,13 @@ function NovelDescription() {
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="d-block">
-                                    <div className="d-flex align-items-center gap-2 carousel-hot-items">
+                                <div className="d-block">
+                                    <div className="d-flex align-items-center gap-2 carousel-hot-items second-novel">
                                         <img
                                             className="d-block h-100 w-25 rounded-2 ps-2 py-0 pe-0"
-                                            src="https://th.bing.com/th/id/OIP.WbTiXojxhR8vAbqYwDXadQHaJ3?pid=ImgDet&rs=1"
+                                            src="https://th.bing.com/th/id/OIP.rtOTH6O2DESYIOAcOkZJwAHaKd?pid=ImgDet&w=1417&h=2000&rs=1"
                                             alt="First slide"
-                                            style={{ objectFit: "cover" }}
+                                            style={{ objectFit: "cover", objectPosition: "right" }}
                                         />
                                         <div className="ml-3">
                                             <h5>First slide label</h5>
@@ -187,13 +187,13 @@ function NovelDescription() {
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="d-block">
-                                    <div className="d-flex align-items-center gap-2 carousel-hot-items">
+                                <div className="d-block">
+                                    <div className="d-flex align-items-center gap-2 carousel-hot-items third-novel">
                                         <img
                                             className="d-block h-100 w-25 rounded-2 ps-2 py-0 pe-0"
-                                            src="https://th.bing.com/th/id/OIP.WbTiXojxhR8vAbqYwDXadQHaJ3?pid=ImgDet&rs=1"
+                                            src="https://th.bing.com/th/id/OIP.1g0oquRxTY59SCYldpa8swHaKd?pid=ImgDet&rs=1"
                                             alt="First slide"
-                                            style={{ objectFit: "cover" }}
+                                            style={{ objectFit: "cover", objectPosition: "top" }}
                                         />
                                         <div className="ml-3">
                                             <h5>First slide label</h5>
