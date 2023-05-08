@@ -59,7 +59,7 @@ function Content() {
             {/* Weekly novels */}
             <section className='background-dark text-light py-5 px-lg-5 px-3' id='weekly-novels-container' >
                 <header className="d-flex justify-content-between align-items-center my-3">
-                    <h3 className="pb-2" style={{ borderBottom: "2px solid lightgreen" }}>Weekly Novels</h3>
+                    <h3 className="pb-2" style={{ borderBottom: "2px solid lightgreen" }}>Weekly New Novels</h3>
                     <a href='/weeklynovels' className=' text-decoration-none' style={{ borderBottom: "1px solid lightgreen", color: "lightgreen" }}>More</a>
                 </header>
                 <div className='row row-cols-8 justify-content-around mb-5' id='weekly-novels-books'>
