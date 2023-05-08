@@ -1,0 +1,208 @@
+.carouselNav{
+    align-items: center;
+    gap: 15px;
+    bottom: -25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.carouselNav a {
+    padding: 10px;
+}
+#weekly-novels-container div .col img{
+    transition: all 0.1s ease-in-out; 
+    cursor:pointer;
+}
+#weekly-novels-container div .col img:hover{
+    border: 3px solid aquamarine;
+}
+#carousel-entry-container{
+    height: 40vh;
+    overflow: hidden;
+}
+#carousel-entry-container .carousel{
+    height: 40vh;
+}
+#carousel-entry-container .carousel .carousel-item{
+    height: 40vh;
+}
+
+#weekly-novels-books div{
+    height: 140px;
+}
+
+#weekly-novels-books div img{
+    border-radius: 10px;
+}
+/* #carousel-hot-container .carousel .carousel-innner .carousel-item img{
+    height: 140px;
+} */
+/* #carousel-hot-container{
+    border: 1px solid red;
+} */
+.carousel-hot-items{
+    border-radius: 10px;
+    height: 180px;
+    padding: 10px;
+    opacity: 0.9;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+  
+.carousel-hot-items img{
+    height: 180px;
+    padding: 10px;
+    opacity: 0.9;
+    
+}
+
+/* .carousel-hot-items::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;    
+    background-image: linear-gradient( 115deg, rgba(2, 2, 2, 0.8), rgba(111, 111, 117, 0.7) ), url(https://i.pinimg.com/originals/21/63/60/2163605d219ce1e2f807ebcbfbebf408.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+#carousel-hot-container .carousel{
+    display: flex;
+    align-items: start;
+    height: 100%;
+}
+
+#ranking-container > div{
+    width: 48%;
+}
+#ranking-container .item-two{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#ranking-container .ranking-image{
+    width: 75px;
+    min-width: 75px;
+    min-height: 100px;
+    height: 120px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#ranking-container .ranking-items{
+    color: white;
+    display: flex;
+    min-width: 50%;
+}
+#ranking-container .ranking-description{
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+#rankings .ranking-buttons-container{
+    background-color: var(--background-dark-secondary);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#rankings .ranking-buttons{
+    border:none;
+    background-color: unset;
+    color: white;
+}
+@media screen and (min-width: 420px) {
+    .carouselNav{
+        bottom: -20%;
+    }
+ 
+    #weekly-novels-books div{
+        height: 200px;
+    }
+    #rankings{
+        width: 90%;
+    }
+  
+}
+
+@media screen and (min-width: 600px) {
+    .carouselNav{
+        bottom: -10%;
+    }
+
+    #carousel-entry-container{
+        height: 50vh;
+    }
+    #carousel-entry-container .carousel{
+        height: 50vh;
+    }
+    #carousel-entry-container .carousel .carousel-item{
+        height: 50vh;
+    }
+    #weekly-novels-books div{
+        height: 250px;
+    }
+
+    #ranking-container .ranking-description{
+        width: 150px;
+ 
+    }
+
+
+}
+
+@media screen and (min-width:768px){
+    #weekly-hot-books .col-3 img{
+        height: 220px!important;
+    }
+    #carousel-entry-container{
+        height: 60vh;
+    }
+    #carousel-entry-container .carousel{
+        height: 60vh;
+    }
+    #carousel-entry-container .carousel .carousel-item{
+        height: 60vh;
+    }
+    #rankings{
+        width: 80%;
+    }
+
+}
+
+
+
+@media screen and (min-width:1000px){
+    #weekly-hot-books .col-3 img{
+        height: 300px!important;
+    }
+    #carousel-entry-container{
+        height: 70vh;
+    }
+    #carousel-entry-container .carousel{
+        height: 70vh;
+    }
+    #carousel-entry-container .carousel .carousel-item{
+        height: 70vh;
+    }
+    #weekly-novels-books div{
+        height: 180px;
+    }
+
+    #rankings{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #weekly-novels-books div{
+        height: 220px;
+    }
+   
+}

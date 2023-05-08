@@ -1,0 +1,49 @@
+header nav .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.modal-dialog.modal-slideout {
+    transform: translateX(100%)!important;
+}
+  
+.modal.show .modal-dialog.modal-slideout {
+    transform: translateX(0)!important;
+}
+.profileContainer{
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  @media screen and (min-width: 426px){
+    #navModal .modal-dialog{
+        width: 60%;
+    }
+
+  }
+
+  @media screen and (max-width: 500px){
+    #headerNav{
+        zoom: 0.8;
+    }
+    footer{
+        zoom:0.6;
+    }
+    #weekly-novels-container{
+        zoom:0.8;
+    }
+    #carousel-entry-container{
+        zoom:0.8;
+    }
+    #rankings{
+        zoom:0.8;
+    }
+    #ranking-container{
+        zoom:0.8;
+    }
+  }

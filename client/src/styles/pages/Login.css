@@ -1,0 +1,58 @@
+.login-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.login-container::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;    
+    background-image: linear-gradient( 115deg, rgba(2, 2, 2, 0.8), rgba(111, 111, 117, 0.7) ), url(https://i.pinimg.com/originals/21/63/60/2163605d219ce1e2f807ebcbfbebf408.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.login-container form{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 95%;
+    padding: 20px;
+}
+
+.login-container .error-container{
+    position: absolute;
+    border-radius: 10px;
+    color: white;
+    bottom: 0%;
+    transition: all 0.5s;
+}
+
+.login-container .error-container::before{
+    position: absolute;
+    content: '';
+    width: 115%;
+    height: 110%;
+    bottom:15%;
+    z-index: -1;
+    border-radius:50px;
+    background-color: rgba(0, 0 ,0 , 0.7);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.7), 0 0px 20px 0 rgba(255, 255, 255, 1);
+
+}
+
+@media screen and (min-width:500px) {
+    .login-container form{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .login-container form{
+        width: 40%;
+    }
+}

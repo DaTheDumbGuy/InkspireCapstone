@@ -1,0 +1,138 @@
+/* #novel{
+    width: 90%;
+    mar
+} */
+.novel-header{
+    opacity: 0.9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.novel-header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+    background: linear-gradient( 115deg, rgba(2, 2, 2, 0.8), rgba(111, 111, 117, 0.7) ), url(https://th.bing.com/th/id/OIP.OVdwF4q_zTyBbBE-a3bIfAHaOG?pid=ImgDet&rs=1);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    filter: blur(2px);
+}
+.novel-image-container{
+    width: 160px;
+    height: 250px;
+    align-self:center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#novel-re-header{
+    /* height: 60vh; */
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+#novel-re-header .novel-record{
+    top: -10%;
+   border-radius: 10px;
+   padding: 10px;
+}
+#novel-re-header .novel-record div{
+    border-radius: 10px;
+
+ }
+#novel-re-header .novel-record div p{
+    margin: 0;
+    color: aquamarine;
+ }
+
+ #novel-re-header .novel-action{
+    width: 100%;
+ }
+
+ #novel-re-header .novel-about{
+    color: white;
+ }
+ #novel-re-categories .novel-categories ul li, #novel-tags ul li{
+    list-style: none;
+ }
+
+ #novel-re-categories .novel-categories ul li small a{
+    background-color: rgb(141, 200, 180);
+    border-radius: 10px;
+    padding: 2px 0;
+}
+
+
+#novel-re-categories #carousel-hot-container .carousel-hot-items::before{
+    content: "";
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient( 115deg, rgba(2, 2, 2, 0.8), rgba(111, 111, 117, 0.7) ), url(https://th.bing.com/th/id/OIP.WbTiXojxhR8vAbqYwDXadQHaJ3?pid=ImgDet&rs=1);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 10px;
+
+}
+
+#novel-tags ul li small a{
+    background-color: rgb(141, 200, 180);
+    border-radius: 10px;
+    padding: 2px 0;
+}
+
+@media screen and (max-width: 600px){
+    #novel-re-categories #carousel-hot-container{
+        zoom:0.8;
+    }
+    #novel-similar-recommended div{
+        zoom: 0.9;
+    }
+}
+@media screen and (min-width: 1000px){
+    .novel-header{
+        display: flex;
+        flex-direction: row;
+        height: 58vh;
+    }
+    .novel-image-container{
+        width: 200px;
+        height: 350px;
+        align-self:unset;
+        margin: 0 20px 0 120px;
+    }
+    .novel-auth-title{
+        width: 50%;
+    }
+    .novel-auth-title .novel-record h4{
+        color: aquamarine;
+    }
+    .novel-auth-title .novel-category li {
+        list-style: none;
+    }
+    .novel-auth-title .novel-category li small a{
+        background-color: rgb(141, 200, 180);
+        border-radius: 10px;
+        padding: 2px 0;
+    }
+    .novel-record div p{
+        font-size:xx-large;
+    }
+    #novel-re-header .novel-about{
+        border: 1px solid black;
+        text-align: center;
+        padding: 30px;
+        width: 80%;
+        margin: 20px auto 0;
+        border-radius: 10px;
+        background-color: var(--background-dark-secondary);
+     }
+
+}

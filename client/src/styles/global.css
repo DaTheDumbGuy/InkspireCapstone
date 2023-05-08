@@ -1,0 +1,30 @@
+:root{
+    --text-light: white;
+    --text-dark: black;
+    --background-dark-primary: #393E46;
+    --background-dark-secondary: #222831;
+    --background-light-secondary: #EEEEEE;
+    --background-light-primary: white;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .green-BTN{
+    padding: 0.5em 1em;
+    border: none;
+    background-color: aquamarine;
+    border-radius:50px;
+    width: 50%;
+}
+
+.background-dark{
+    background-color: var(--background-dark-primary);
+}
+.background-dark-light{
+    background-color: var(--background-dark-secondary);
+}
